@@ -7,7 +7,7 @@ function crystalGazer(nuofChildren, nameparnter, location, titlejob) {
 }
 crystalGazer(3, "sozie", "holanda", "programmer");
 
-// 2 | Age Calculator
+//ex2 | Age Calculator
 
 function crystalGazer(birthYear, currentYear) {
     var age1 = currentYear - birthYear;
@@ -15,3 +15,41 @@ function crystalGazer(birthYear, currentYear) {
     console.log("you are either  " + age1 + "or" + age2 + ".");
 }
 crystalGazer(1990, 2022);
+
+//ex3 | Age Calculator-improved
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ex4 | Degree-Radian Conversion
+
+function degrRadian(degrees) {
+    console.log(degrees * (Math.PI / 180));
+}
+degrRadian(360);
+
+
+
+
+// ex 5 | Area and Volume of a box
+
+function areavolume(width, height, depth) {
+    let area = width * height;
+    let volume = width * height * depth;
+    console.log("The area of the box is:" + area);
+    console.log("The volume of the box is:" + volume);
+}
+areavolume(2, 7, 5);
