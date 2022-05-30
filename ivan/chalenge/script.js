@@ -20,7 +20,7 @@ function atm(request) {
 
   let banknoteOfHundred = Math.floor(rest / 100);
 
-  rest = request % 100;
+  rest = rest % 100;
 
   let banknoteOfFifty = Math.floor(rest / 50);
 
@@ -38,7 +38,7 @@ function atm(request) {
 
 
 
-  return `You'll get ${banknoteOfFivehundred} banknote(s) of 500€, ${banknoteOfHundred} banknote(s) of 100€, ${banknoteOfFifty} banknote(s) of 50€, ${banknoteOfTwenty} banknote(s) of 20€, ${banknoteOfTen} banknote(s) of 10€ and ${banknoteOfFive} banknote(s) of 5€.`
+  return `You will receive ${banknoteOfFivehundred} banknote(s) of 500€, ${banknoteOfHundred} banknote(s) of 100€, ${banknoteOfFifty} banknote(s) of 50€, ${banknoteOfTwenty} banknote(s) of 20€, ${banknoteOfTen} banknote(s) of 10€ and ${banknoteOfFive} banknote(s) of 5€.`
 };
 
 console.log(atm(885));
