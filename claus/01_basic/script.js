@@ -4,7 +4,7 @@ Write a function named crystalGazer() that takes four arguments: number of child
 You will be a job_title in location and married to partners_name with number_childrens.*/
 
 function crystalGazer(numChildren, namePartner, location, job) {
-    console.log("You will be a " + job +" in " + location + " and married to " + namePartner +" with " + numChildren + " kids.");
+    console.log("You will be a " + job + " in " + location + " and married to " + namePartner + " with " + numChildren + " kids.");
 };
 
 crystalGazer(5, "Jolene", "Iraq", "doctor");
@@ -16,7 +16,7 @@ You should get the following results:
 
 You are either 29 or 28*/
 
-function ageCalculator (birthYear, currentYear) {
+function ageCalculator(birthYear, currentYear) {
     var age1 = currentYear - birthYear;
     var age2 = currentYear - birthYear - 1;
 
@@ -32,7 +32,7 @@ You should get the following results:
 
 You are either 29 or 28*/
 
-function ageCalculator (birthYear) {
+function ageCalculator(birthYear) {
     var today = new Date();
     var age1 = today.getFullYear() - birthYear;
     var age2 = today.getFullYear() - birthYear - 1;
@@ -46,8 +46,8 @@ Create a JavaScript function that converts degrees to radians. The function acce
 
 E.g. If user passes 90 degrees it should get the result of 1.57079 radians*/
 
-function degreeRadian (degrees) {
-    console.log(degrees * (Math.PI/180))
+function degreeRadian(degrees) {
+    console.log(degrees * (Math.PI / 180))
 }
 
 degreeRadian(360);
@@ -69,15 +69,11 @@ The area of the box is: 14
 
 The volume of the box is: 70*/
 
-function areaVol (width, height, depth) {
+function areaVol(width, height, depth) {
     let area = width * height;
     let volume = width * height * depth;
     console.log("The area of the box is: " + area);
     console.log("The volume of the box is: " + volume);
 }
 
-areaVol(2,7,5);
-
-
-
-
+areaVol(2, 7, 5);
