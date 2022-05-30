@@ -13,6 +13,8 @@ Hint: Check JavaScript String charAt() Method*/
     console.log(firstLetter + string.slice(1));
    }());
 
+//    ((str = "i am a web developer") => { console.log(str.charAt(0).toUpperCase() + str.substring(1)) })(); = BETTER VERSION
+
 /*Average Grade
 Make a function that will accept 3 parameters, which are the grades from Math, Physics and English. then make the calculation and print them on the screen. Make sure that the variables are numbers.
 
