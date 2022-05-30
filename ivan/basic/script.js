@@ -83,15 +83,23 @@ console.log(degreeToRadian(90));
 // The area of the box is: 14
 
 // The volume of the box is: 70
+let message1 ="The area of the box is: "
+
+let message2 ="The volume of the box is: "
 
 function box(width, height, depth) {
   area = width * height;
   volume = width * height * depth;
-  return ("The area of the box is: " + area + "\n" + " The volume of the box is: " + volume)
+  
+  
+  result = [area, volume];
+  return result;
 }
 
-console.log(box(2, 7, 5));
+console.log(message1 + box(2, 7, 5)[0]);
 
-// Monday My 30 
+console.log(message2 + box(2, 7, 5)[1]);
+
+// Monday May 30 
 
 
